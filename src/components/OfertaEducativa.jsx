@@ -87,7 +87,7 @@ export default function OfertaEducativa() {
           backgroundColor: '#000'
         }}>
           <iframe
-            src="./public/videos/Video_Promocional.mp4"
+            src="./videos/Video_Promocional.mp4"
             title="Presentación del Cecytem"
             allowFullScreen
           ></iframe>
