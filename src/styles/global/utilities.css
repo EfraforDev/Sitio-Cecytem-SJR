@@ -1,0 +1,166 @@
+/* Contenedor */
+.container-fluid {
+  width: 100%;
+  padding-right: var(--spacing-md);
+  padding-left: var(--spacing-md);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-fluid {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-fluid {
+    max-width: 1320px;
+  }
+}
+
+/* Secciones */
+.section {
+  padding: var(--spacing-3xl) var(--spacing-md);
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--secondary-dark);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: var(--secondary-light);
+  margin-bottom: var(--spacing-2xl);
+  text-align: center;
+}
+
+/* Botones */
+.btn-custom {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-main);
+  color: white;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary-custom {
+  background-color: var(--secondary-dark);
+  color: white;
+}
+
+.btn-secondary-custom:hover {
+  background-color: var(--secondary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--primary-main);
+  color: var(--primary-main);
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-main);
+  color: white;
+}
+
+/* Tarjetas */
+.card-custom {
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+  border: none;
+}
+
+.card-custom:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+}
+
+/* Gradiente */
+.gradient-accent {
+  background: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)),
+    url('/src/assets/images/Plantel_2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Grid */
+.grid-auto {
+  display: grid;
+  gap: var(--spacing-lg);
+  grid-auto-flow: dense;
+}
+
+@media (max-width: 768px) {
+  .grid-auto {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Flexbox */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Texto */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: var(--gray-600);
+}
+
+.text-primary {
+  color: var(--primary-main);
+}

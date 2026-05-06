@@ -1,0 +1,36 @@
+/* Importar Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Importar variables */
+@import './utilities/variables.css';
+
+/* Importar CSS global */
+@import './global/base.css';
+@import './global/utilities.css';
+
+/* Importar CSS de componentes */
+@import './components/navbar.css';
+@import './components/hero.css';
+@import './components/cards.css';
+@import './components/forms.css';
+@import './components/gallery.css';
+@import './components/tables.css';
+@import './components/footer.css';
+@import './components/legal.css';
+
+/* Sobrescribir estilos de Bootstrap si es necesario */
+.btn {
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all var(--transition-base);
+}
+
+.btn-primary {
+  background-color: var(--primary-main);
+  border-color: var(--primary-main);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
