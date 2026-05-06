@@ -30,10 +30,15 @@ export default function Hero() {
           <div className="col-lg-6 hero-image">
             <div className="hero-image-box">
               <div>
-                <div className="hero-image-icon"> 
+                <div className="hero-image-icon d-flex justify-content-center align-items-center"> 
                   <img 
-                  src="/src/assets/images/Cecytem_logo.png" 
-                  alt="Logo Cecytem" 
+                    src="/images/Cecytem_logo.png" 
+                    alt="Logo Cecytem" 
+                    style={{
+                      maxWidth: '500px',
+                      width: '100%',
+                      borderRadius: '1rem'
+                    }}
                   /> 
                 </div>
                 <p className="hero-image-text">Educación Técnica<br />de Calidad</p>

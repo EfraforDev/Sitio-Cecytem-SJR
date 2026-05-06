@@ -78,14 +78,15 @@
   }
 
   .hero-image-icon {
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4rem;
     margin-bottom: var(--spacing-md);
   }
+
+  
 
   .hero-image-text {
     font-size: 1.25rem;

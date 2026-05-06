@@ -6,16 +6,16 @@ export default function Galeria() {
   const [filtro, setFiltro] = useState('todos')
 
   const fotos = [
-    { id: 1, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/src/assets/images/Laboratorio_quimica.jpeg'},
-    { id: 2, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/src/assets/images/Laboratorio_quimica2.jpeg'},
-    { id: 3, titulo: 'Sala de Cómputo 1', categoria: 'laboratorios', src: '/src/assets/images/Sala_1.jpeg' },
-    { id: 4, titulo: 'Sala de Cómputo 2', categoria: 'laboratorios', src: '/src/assets/images/Sala_2.jpeg' },
-    { id: 5, titulo: 'Evento de dia de muertos', categoria: 'eventos', src: '/src/assets/images/Dia_de_muertos.jpeg' },
-    { id: 6, titulo: 'Campaña Vacunación', categoria: 'eventos', src: '/src/assets/images/Campaña_Vacunacion.jpeg' },
-    { id: 7, titulo: 'Semana del Cerebro', categoria: 'eventos', src: '/src/assets/images/Semana_del_cerebro.jpeg' },
-    { id: 8, titulo: 'Plantel Vista Aérea', categoria: 'instalaciones', src: '/src/assets/images/Plantel_area.jpeg' },
-    { id: 9, titulo: 'Atardecer en el Plantel', categoria: 'instalaciones', src: '/src/assets/images/Plantel_tarde.jpeg' },
-    { id: 10, titulo: 'Anochecer en el Plantel', categoria: 'instalaciones', src: '/src/assets/images/Plantel_noche.jpeg' },
+    { id: 1, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/images/Laboratorio_quimica2.jpeg'},
+    { id: 2, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/images/Laboratorio_quimica2.jpeg'},
+    { id: 3, titulo: 'Sala de Cómputo 1', categoria: 'laboratorios', src: '/images/Sala_1.jpeg' },
+    { id: 4, titulo: 'Sala de Cómputo 2', categoria: 'laboratorios', src: '/images/Sala_2.jpeg' },
+    { id: 5, titulo: 'Evento de dia de muertos', categoria: 'eventos', src: '/images/Dia_de_muertos.jpeg' },
+    { id: 6, titulo: 'Vacunación', categoria: 'eventos', src: '/images/Cam_Vacunacion.jpeg' },
+    { id: 7, titulo: 'Semana del Cerebro', categoria: 'eventos', src: '/images/Semana_del_cerebro.jpeg' },
+    { id: 8, titulo: 'Plantel Vista Aérea', categoria: 'instalaciones', src: '/images/Plantel_area.jpeg' },
+    { id: 9, titulo: 'Atardecer en el Plantel', categoria: 'instalaciones', src: '/images/Plantel_tarde.jpeg' },
+    { id: 10, titulo: 'Anochecer en el Plantel', categoria: 'instalaciones', src: '/images/Plantel_noche.jpeg' },
   ]
 
   const filtrado = filtro === 'todos' ? fotos : fotos.filter(f => f.categoria === filtro)

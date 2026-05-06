@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="navbar-brand">
           <img 
-            src="/src/assets/images/logo_navbar.png" 
+            src="/images/logo_navbar.png" 
             alt="Logo Cecytem" 
           />
           <span>Cecytem SJR</span>

@@ -8,7 +8,7 @@ export default function Testimonios() {
       carrera: 'Técnico en Programación',
       empresa: 'Fletes Maquinas y Movimientos. S.A. de C.V.',
       testimonio: 'El Cecytem me dio las herramientas necesarias para desarrollarme como profesional ya que desarrolle habilidades lógicas y analiticas que hoy aplico en mi profesion. Hoy me desempeño como Ingeniera Civil en una empresa Méxicana.',
-      avatar: '/src/assets/images/Avatar_1.png',
+      avatar: '/images/Avatar_1.png',
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export default function Testimonios() {
       carrera: 'Técnico en Ventas',
       empresa: 'Cubik Arquitectos',
       testimonio: 'La educación práctica que recibí fue fundamental para mi éxito laboral ya que puedo ofrecer soluciones que se ajusten a las necesidades del cliente. Pasé de ser estudiante a ser una Arquitecta Profesional',
-      avatar: '/src/assets/images/Avatar_2.png',
+      avatar: '/images/Avatar_2.png',
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ export default function Testimonios() {
       carrera: 'Técnico en Programación',
       empresa: 'Punto Idioma',
       testimonio: 'Haber sido técnica en programación me facilito el aprender el uso de herramientas tecnologícas, lo cual ahora en mi vida profesional como Maestra de Ingles y Frances me permite poder realizar clases mas dinamicas',
-      avatar: '/src/assets/images/Avatar_3.png',
+      avatar: '/images/Avatar_3.png',
     },
   ]
 

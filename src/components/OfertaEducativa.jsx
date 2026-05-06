@@ -9,7 +9,7 @@ export default function OfertaEducativa() {
       descripcion: 'La carrera de Técnico en Programación ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a: analizar, diseñar, desarrollar, instalar y mantener software de aplicación tomando como base los requerimientos del usuario. Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales y necesidades de su entorno social.',
       semestres: 6,
       areas: ['Desarollo Web (Frontend/Backend)', 'Desarrollo de aplicaciones Moviles', 'Administracion de BD', 'Soporte Tecnico y Sistemas'],
-      imagen: '/src/assets/images/Programacion.png',
+      imagen: '/images/Programacion.png',
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export default function OfertaEducativa() {
       descripcion: 'La carrera de Técnico en Ventas ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a: posicionar un producto o servicio de una empresa en el mercado, auxiliar en el proceso de administración del área de ventas y en la elaboración del estudio de mercado, así como comercializar un servicio y/o producto aplicando las estrategias de comunicación y asesorar al cliente.',
       semestres: 6,
       areas: ['Marketing y Publicidad', 'Servicio al Cliente y Postventa', 'Administración Comercial', 'Emprendimiento'],
-      imagen: '/src/assets/images/Ventas.png',
+      imagen: '/images/Ventas.png',
     }
   ]
 
@@ -87,7 +87,7 @@ export default function OfertaEducativa() {
           backgroundColor: '#000'
         }}>
           <iframe
-            src="./src/assets/videos/Video_Promocional.mp4"
+            src="./public/videos/Video_Promocional.mp4"
             title="Presentación del Cecytem"
             allowFullScreen
           ></iframe>
