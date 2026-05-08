@@ -6,7 +6,7 @@ export default function Galeria() {
   const [filtro, setFiltro] = useState('todos')
 
   const fotos = [
-    { id: 1, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/images/Laboratorio_quimica2.jpeg'},
+    { id: 1, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/images/Laboratorio_quimica1.jpeg'},
     { id: 2, titulo: 'Laboratorio de Química', categoria: 'laboratorios', src: '/images/Laboratorio_quimica2.jpeg'},
     { id: 3, titulo: 'Sala de Cómputo 1', categoria: 'laboratorios', src: '/images/Sala_1.jpeg' },
     { id: 4, titulo: 'Sala de Cómputo 2', categoria: 'laboratorios', src: '/images/Sala_2.jpeg' },
