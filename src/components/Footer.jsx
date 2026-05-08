@@ -40,8 +40,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="footer-bottom">
           <p>
-            &copy; {currentYear} Cecytem Plantel San José del Rincón. Todos los derechos reservados. | 
-            <a href="#aviso" className="ms-2">Aviso de Privacidad</a>
+            &copy; {currentYear} Cecytem Plantel San José del Rincón. Todos los derechos reservados.
           </p>
         </div>
       </div>
